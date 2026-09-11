@@ -31,7 +31,7 @@ class p-bit clamped
 While the circuit is trained largely through classical parameter estimation,
 the resulting PCircuit still defines a probabilistic model and allows 
 conditional EEG generation through stochastic sampling.
-
+    
 Results:
 - Classification results are quite good. The demo tests 5 P300 datasets from MOABB.
 - Generation is meaningful, but less impressive. This might partly be because there is
@@ -84,6 +84,10 @@ Result 2:
       Global structure  : r=0.1311   real-real=0.5141
       Precision edges   : r=0.2789   real-real=0.7996
 
+Final objective:
+    A classically parameterized p-bit probabilistic circuit that preserves
+    useful classification performance and supports genuine stochastic
+    conditional EEG generation.
 """
 
 import copy, re, warnings
