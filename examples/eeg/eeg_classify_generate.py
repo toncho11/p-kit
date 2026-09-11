@@ -28,6 +28,10 @@ class p-bit clamped
 -> stochastic PCircuit sampling
 -> BitPlane + BlockGibbs
 
+While the circuit is trained largely through classical parameter estimation,
+the resulting PCircuit still defines a probabilistic model and allows 
+conditional EEG generation through stochastic sampling.
+
 Results:
 - Classification results are quite good. The demo tests 5 P300 datasets from MOABB.
 - Generation is meaningful, but less impressive. This might partly be because there is
