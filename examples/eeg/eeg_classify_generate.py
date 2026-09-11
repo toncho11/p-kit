@@ -1,7 +1,7 @@
 """
-This is an EEG P300 classification and generation demo. It is a first proof
-of concept towards heavier use of probabilistic circuits. The EEG generation is
-where probabilistic sampling is used.
+A joint p-bit probabilistic model of P300 EEG that supports stochastic 
+conditional generation, while retaining competitive exact conditional 
+classification.
 
 I have noticed that the following algorithm is both simple and provides very
 good classification results. In this demo it is implemented as FlatLR:
